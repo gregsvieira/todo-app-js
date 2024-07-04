@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do tema escuro */
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.list {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #444;
+  border-radius: 8px;
+}
+
+.add-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-item__input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #555;
+  color: #fff;
+}
+
+.button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #777;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #999;
+}
+
+.list_items {
+  margin-top: 20px;
+}
+
+.todo__card {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #666;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.item__content {
+  flex: 1;
+}
+
+.item__delete-action {
+  background-color: transparent;
+  border: none;
+  color: #ff6347;
+  font-size: 16px;
+  cursor: pointer;
+}
+
